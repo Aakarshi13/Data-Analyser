@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(layout="wide")
 st.title("📈 Amazon Sale Report Dashboard")
 
-df = pd.read_csv("Amazon Sale Report prateek.csv")
+df = pd.read_csv("Amazon Sales Report.csv")
 
 st.subheader("Raw Data")
 st.dataframe(df)
